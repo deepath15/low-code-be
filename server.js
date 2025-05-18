@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(cookieParser());
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://low-code-server.deepath.tech',
     credentials: true,
 }));
 
